@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aayushsingh.secure.StartActivity"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:id="@+id/bneed_account"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp"
+        android:text="@string/need_an_account"
+        android:background="@drawable/red"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/balready_have"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_alignLeft="@+id/bneed_account"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/bneed_account"
+        android:layout_marginBottom="70dp"
+        android:text="@string/already_have"
+        android:background="#ac00e6"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+</RelativeLayout>

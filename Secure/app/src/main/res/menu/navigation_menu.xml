@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/b_settings"
+        android:title="@string/menu_settings"
+        ></item>
+    <item
+        android:id="@+id/bmain_log_out"
+        android:title="@string/signout"
+        android:visible="true"></item>
+
+</menu>
